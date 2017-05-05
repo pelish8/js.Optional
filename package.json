@@ -1,15 +1,39 @@
 {
-  "name": "js.Optional",
+  "name": "js.optional",
   "version": "1.0.0",
-  "description": "",
+  "description": "Optionals for JS",
   "main": "Optional.js",
   "scripts": {
     "test": "qunit Optional.js tests.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "qunit": "^1.0.0",
     "qunitjs": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelish8/js.optional.git"
+  },
+  "author": {
+    "name": "Aleksandar Stevic",
+    "url": "https://github.com/pelish8"
+  },
+  "license": "MIT",
+  "keywords": [
+    "java",
+    "scala",
+    "oracle",
+    "optional",
+    "functional",
+    "null",
+    "javascript",
+    "lambda",
+    "optionals",
+    "nullable",
+    "ifPresent",
+    "try",
+    "catch",
+    "ofNullable",
+    "throw"
+  ]
 }

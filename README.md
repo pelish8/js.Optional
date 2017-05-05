@@ -1,5 +1,21 @@
-# js.Optional
+# js.optional
 
+Optionals for JS
+
+# Installation
+
+Download the [latest release](https://github.com/pelish8/js.optional/releases) from GitHub or from [NPM](https://www.npmjs.com/package/js.optional)
+
+via npm:
+``` bash
+$ npm install js.optional
+```
+
+then just require in node:
+``` javascript
+var Optional = require('js.optional');
+var emptyOptional = Optional.of(123);
+```
 ## API
 
 1. ``` equals({*}) ``` - Indicates whether some other object is "equal to" this Optional.
@@ -14,3 +30,14 @@
 1. ``` empty() ``` - Returns an empty Optional.
 1. ``` of() ``` - Returns an Optional describing the specified value, if non-null, otherwise returns an empty Optional.
 1. ``` ofNullable() ``` - Returns an Optional describing the specified value, if non-null, otherwise returns an empty Optional.
+
+
+# Contributing
+
+Found a bug or missing feature? Please open an [issue](https://github.com/pelish8/js.optional/issues)!
+
+Send your feedback. Send your pull requests. All contributions are appreciated!
+
+# License
+
+js.optional may be freely distributed under the MIT license.
