@@ -14,7 +14,7 @@ $ npm install js.optional
 then just require in node:
 ``` javascript
 var Optional = require('js.optional');
-var emptyOptional = Optional.of(123);
+var numberOptional = Optional.of(123);
 ```
 ## API
 
