@@ -1,0 +1,15 @@
+{
+  "name": "js.Optional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Optional.js",
+  "scripts": {
+    "test": "qunit Optional.js tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "qunit": "^1.0.0",
+    "qunitjs": "^2.3.0"
+  }
+}
